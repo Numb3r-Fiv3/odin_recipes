@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+p,li{
+    line-height: 200%;
+}
+.top{
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: end;
+}
+.nutrition{
+    border: rgb(62, 61, 61) 3px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.nutrition h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: rgb(62, 61, 61) 2px solid;
+}
+.description{
+    border: rgb(62, 61, 61) 3px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 2% 20%;
+}
+.ingredients{
+    border: rgb(62, 61, 61) 3px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.steps{
+    border: rgb(62, 61, 61) 3px solid;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.nutrition:hover, .description:hover, .ingredients:hover, .steps:hover{
+    background-color: rgb(28, 28, 28);
+}
