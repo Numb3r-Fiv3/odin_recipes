@@ -27,7 +27,7 @@ li div{
     display: flex;
     flex-direction: column;
 }
-.main div:hover{
+li div:hover{
     background-color: rgb(28, 28, 28);
 }
 .linkt{
